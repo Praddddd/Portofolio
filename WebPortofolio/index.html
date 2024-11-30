@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header dengan tombol hamburger -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#hero">Portfolio</a>
+            </div>
+            <div class="toggle-menu" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#social-media"><i class="fas fa-envelope"></i> Connect</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>    
+    
+    <section id="hero">
+        <div class="container">
+            <h1>
+                Hello, I'm <br>
+                <span class="typed-name"></span>
+            </h1>
+            <p>Creative Web Developer & Designer</p>
+            <a href="#portfolio" class="btn">View My Work</a>
+        </div>
+    </section>      
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="asset/image/about.jpg" alt="About Me" class="about-img">
+                <div class="about-text">
+                    <p>I am a web developer with a passion for creating stunning, functional websites. With a strong background in technology and design, I bring ideas to life in a visually appealing way.</p>
+                    <a href="#contact" class="btn">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <a href="https://www.figma.com/proto/2sHtNfwMtGsFotoiBpqZ83/Untitled?node-id=1-2&node-type=canvas&t=fb9iQpu2Ii0PYFF3-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" target="_blank" rel="noopener noreferrer">
+                        <img src="asset/image/project1.png" alt="Project 1">
+                        <div class="portfolio-overlay">
+                            <h3>Project 1</h3>
+                            <p>Web design project.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://praddddd.github.io/pride-store.github.io/" target="_blank" rel="noopener noreferrer">
+                        <img src="asset/image/project2.png" alt="Project 2">
+                        <div class="portfolio-overlay">
+                            <h3>Project 2</h3>
+                            <p>responsive e-commerce website.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://github.com/Praddddd/IDCORE" target="_blank" rel="noopener noreferrer">
+                        <img src="asset/image/project3.png" alt="Project 3">
+                        <div class="portfolio-overlay">
+                            <h3>Project 3</h3>
+                            <p>website using php mvc.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="social-media">
+        <div class="container">
+            <h2>Connect with Me</h2>
+            <div class="social-icons">
+                <a href="" class="social-icon">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="social-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="social-icon">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Putu Pradita. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
